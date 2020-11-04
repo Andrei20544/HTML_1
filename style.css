@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+header{
+    background: red;
+    text-align: center;
+    color: white;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+aside{
+    float: right;
+    display: block;
+    width: 70%;
+    margin-right: 15px;
+    margin-top: 35px;
+    background: #ededee;
+    display: flex;
+    flex-direction: column;
+}
+aside #up{
+    color: #37374e;
+    text-align: center;
+    font-size: 20pt;
+}
+aside #center{
+    text-align: center;
+    font-size: 16pt;
+    margin-top: 15px;
+}
+
+#redBox{
+    width: 350px;
+    height: 80px;
+    background: red;
+    align-items: center;
+    position: center;
+    margin-left: 320px;
+    margin-top: 50px;
+    border: 1px solid #8a0202;
+    border-radius: 10px;
+    text-align: center;
+}
+#redBox p{
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    font-size: 25pt;
+}
+
+#butt{
+    margin-top: 50px;
+    margin-left: 369px;
+    display: flex;
+    flex-direction: row;
+
+}
+#butt #leftButt{
+    background: #faa94a;
+    height: 50px;
+    width: 150px;
+    border: 1px solid #8a7302;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: inset 2px 2px 0px rgba(255, 255, 255, 0.8);
+    align-items: center;
+    text-align: center;
+}
+#butt #rightButt{
+    background: #faa94a;
+    height: 50px;
+    width: 100px;
+    border: 1px solid #8a7302;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: inset 2px 2px 0px rgba(255, 255, 255, 0.8);
+    align-items: center;
+    text-align: center;
+}
+#butt #leftButt p{
+    margin-top: 13px;
+    color: white;
+    font-size: 15pt;
+}
+#butt #rightButt p{
+    margin-top: 13px;
+    color: white;
+    font-size: 15pt;
+}
+
+#butt #leftButt:hover{
+    background: #d99240;
+}
+
+#butt #leftButt:active{
+    background: #b56c17;
+}
+
+p{
+    text-decoration: none;
+}
+
+@media  screen and (min-width: 600px) {
+    body{
+        min-width: 100vh;
+    }
+}
